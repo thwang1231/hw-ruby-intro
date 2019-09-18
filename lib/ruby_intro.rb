@@ -3,11 +3,29 @@
 # Part 1
 
 def sum arr
-  # YOUR CODE HERE
+    total = 0
+
+    arr.each {|num| total+=num}
+    return total
+
 end
 
 def max_2_sum arr
-  # YOUR CODE HERE
+
+    if arr.size == 0
+        return 0
+    elsif arr.size == 1
+        return arr[0]
+    else
+        puts "sorted arrasdfsadfsdfasdfasddfsasd"
+        puts arr.sort
+        puts "largestlargestlargest"
+        k = arr.sort
+        puts k[arr.size]
+        puts "endendendend"
+        return 0
+    end
+
 end
 
 def sum_to_n? arr, n
